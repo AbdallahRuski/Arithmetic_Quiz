@@ -1,5 +1,13 @@
 [
     {
+        "merged": "C:\\Users\\USER\\Documents\\GitHub\\Coursework\\app\\build\\intermediates\\merged_res\\debug\\layout_custom_dialog.xml.flat",
+        "source": "C:\\Users\\USER\\Documents\\GitHub\\Coursework\\app\\src\\main\\res\\layout\\custom_dialog.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\Documents\\GitHub\\Coursework\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_new_game.xml.flat",
+        "source": "C:\\Users\\USER\\Documents\\GitHub\\Coursework\\app\\src\\main\\res\\layout\\activity_new_game.xml"
+    },
+    {
         "merged": "C:\\Users\\USER\\Documents\\GitHub\\Coursework\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher.webp.flat",
         "source": "C:\\Users\\USER\\Documents\\GitHub\\Coursework\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.webp"
     },
@@ -48,12 +56,20 @@
         "source": "C:\\Users\\USER\\Documents\\GitHub\\Coursework\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.webp"
     },
     {
+        "merged": "C:\\Users\\USER\\Documents\\GitHub\\Coursework\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_baseline_cancel_24.xml.flat",
+        "source": "C:\\Users\\USER\\Documents\\GitHub\\Coursework\\app\\src\\main\\res\\drawable\\ic_baseline_cancel_24.xml"
+    },
+    {
         "merged": "C:\\Users\\USER\\Documents\\GitHub\\Coursework\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher_round.webp.flat",
         "source": "C:\\Users\\USER\\Documents\\GitHub\\Coursework\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.webp"
     },
     {
         "merged": "C:\\Users\\USER\\Documents\\GitHub\\Coursework\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_main.xml.flat",
         "source": "C:\\Users\\USER\\Documents\\GitHub\\Coursework\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\USER\\Documents\\GitHub\\Coursework\\app\\build\\intermediates\\merged_res\\debug\\drawable_dialog_bg.xml.flat",
+        "source": "C:\\Users\\USER\\Documents\\GitHub\\Coursework\\app\\src\\main\\res\\drawable\\dialog_bg.xml"
     },
     {
         "merged": "C:\\Users\\USER\\Documents\\GitHub\\Coursework\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher.webp.flat",

@@ -2450,6 +2450,8 @@ drawable design_ic_visibility
 drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
+drawable dialog_bg
+drawable ic_baseline_cancel_24
 drawable ic_clock_black_24dp
 drawable ic_keyboard_black_24dp
 drawable ic_launcher_background
@@ -2520,6 +2522,7 @@ id SHOW_PROGRESS
 id SYM
 id TOP_END
 id TOP_START
+id aboutButton
 id accelerate
 id accessibility_action_clickable_span
 id accessibility_custom_action_0
@@ -2604,7 +2607,6 @@ id bounce
 id bounceBoth
 id bounceEnd
 id bounceStart
-id btnDatePicker
 id buttonPanel
 id cache_measures
 id callMeasure
@@ -2810,6 +2812,7 @@ id navigation_header_container
 id never
 id neverCompleteToEnd
 id neverCompleteToStart
+id new_game_btn
 id noScroll
 id noState
 id none
@@ -2936,6 +2939,7 @@ id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
 id textTop
+id textView2
 id text_input_end_icon
 id text_input_error_icon
 id text_input_start_icon
@@ -3069,6 +3073,7 @@ layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_main
+layout activity_new_game
 layout custom_dialog
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
