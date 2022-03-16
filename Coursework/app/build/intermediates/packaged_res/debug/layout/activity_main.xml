@@ -8,7 +8,7 @@
 
 
     <Button
-        android:id="@+id/new_game_btn"
+        android:id="@+id/btnEqual"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="164dp"
@@ -20,7 +20,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/aboutButton"
+        android:id="@+id/btnLess"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="280dp"

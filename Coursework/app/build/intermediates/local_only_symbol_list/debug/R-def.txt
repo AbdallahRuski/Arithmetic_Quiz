@@ -11,10 +11,13 @@ drawable dialog_bg
 drawable ic_baseline_cancel_24
 drawable ic_launcher_background
 drawable ic_launcher_foreground
-id aboutButton
+id btnEqual
+id btnGreater
+id btnLess
 id cancel_button
-id new_game_btn
-id textView2
+id idAnswer
+id idfirstArihmetic
+id idsecondArithmetic
 layout activity_main
 layout activity_new_game
 layout custom_dialog

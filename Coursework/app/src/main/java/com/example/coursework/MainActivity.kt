@@ -17,7 +17,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        val aboutButton: Button = findViewById(R.id.aboutButton)
+        val aboutButton: Button = findViewById(R.id.btnLess)
         aboutButton.setOnClickListener {
             val cancel: ImageView
             //will create a view of our custom dialog layout
@@ -38,11 +38,12 @@ class MainActivity : AppCompatActivity() {
                 override fun onClick(view: View?) {
                     dialog.dismiss()
                 }
-            })
+            }
+            )
         }
     }
     fun switchToGameMode(view : View) {
-        if (view.id == R.id.new_game_btn) intent = Intent(
+        if (view.id == R.id.btnEqual) intent = Intent(
             this,
             NewGame::class.java
      )

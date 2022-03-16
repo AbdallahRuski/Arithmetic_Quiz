@@ -2522,7 +2522,6 @@ id SHOW_PROGRESS
 id SYM
 id TOP_END
 id TOP_START
-id aboutButton
 id accelerate
 id accessibility_action_clickable_span
 id accessibility_custom_action_0
@@ -2607,6 +2606,9 @@ id bounce
 id bounceBoth
 id bounceEnd
 id bounceStart
+id btnEqual
+id btnGreater
+id btnLess
 id buttonPanel
 id cache_measures
 id callMeasure
@@ -2719,6 +2721,9 @@ id honorRequest
 id horizontal_only
 id icon
 id icon_group
+id idAnswer
+id idfirstArihmetic
+id idsecondArithmetic
 id ifRoom
 id ignore
 id ignoreRequest
@@ -2812,7 +2817,6 @@ id navigation_header_container
 id never
 id neverCompleteToEnd
 id neverCompleteToStart
-id new_game_btn
 id noScroll
 id noState
 id none
@@ -2939,7 +2943,6 @@ id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
 id textTop
-id textView2
 id text_input_end_icon
 id text_input_error_icon
 id text_input_start_icon
