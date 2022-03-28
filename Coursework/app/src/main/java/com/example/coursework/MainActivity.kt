@@ -19,6 +19,7 @@ class MainActivity : AppCompatActivity() {
 
         val aboutButton: Button = findViewById(R.id.btnLess)
         aboutButton.setOnClickListener {
+            val ok: Button
             val cancel: ImageView
             //will create a view of our custom dialog layout
             val alertCustomdialog: View =
@@ -26,15 +27,22 @@ class MainActivity : AppCompatActivity() {
             //initialize alert builder.
             val alert: AlertDialog.Builder = AlertDialog.Builder(this@MainActivity)
 
-            //set our custom alert dialog to tha alertdialog builder
+            //set the custom alert dialog to the alertdialog builder
             alert.setView(alertCustomdialog)
             cancel = alertCustomdialog.findViewById(R.id.cancel_button)
+            ok = alertCustomdialog.findViewById(R.id.btnOk)
             val dialog: AlertDialog = alert.create()
-            //this line removed app bar from dialog and make it transperent and you see the image is like floating outside dialog box.
+            //this line removed app bar from dialog and make it transparent and you see the image is like floating outside dialog box.
             dialog.getWindow()?.setBackgroundDrawable(ColorDrawable(Color.TRANSPARENT))
-            //finally show the dialog box in android all
+            //finally show the dialog box in android
             dialog.show()
             cancel.setOnClickListener(object : View.OnClickListener {
+                override fun onClick(view: View?) {
+                    dialog.dismiss()
+                }
+            }
+            )
+            ok.setOnClickListener(object : View.OnClickListener {
                 override fun onClick(view: View?) {
                     dialog.dismiss()
                 }
@@ -46,11 +54,7 @@ class MainActivity : AppCompatActivity() {
         if (view.id == R.id.btnEqual) intent = Intent(
             this,
             NewGame::class.java
-     )
-        //else if (view.id === R.id.hints_button) intent = Intent(
-//            this,
-//            Hints::class.java
-       // )
+        )
         startActivity(intent)
     }
 }

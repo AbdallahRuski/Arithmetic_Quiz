@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="220dp"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imgCUp"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="25dp"
+        android:text="New Game"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:src="@mipmap/champ_cup_foreground"/>
+
+    <TextView
+        android:id="@+id/idCorrect"
+        android:layout_width="190dp"
+        android:layout_height="26dp"
+        android:layout_marginTop="20dp"
+        android:text="Correct Answers: "
+        android:textColor="#2E9A33"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:gravity="left"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgCUp" />
+
+    <TextView
+        android:id="@+id/idWrong"
+        android:layout_width="190dp"
+        android:layout_height="32dp"
+        android:layout_marginTop="20dp"
+        android:text="Wrong Answers: "
+        android:textColor="#AC0808"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:gravity="left"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/idCorrect" />
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

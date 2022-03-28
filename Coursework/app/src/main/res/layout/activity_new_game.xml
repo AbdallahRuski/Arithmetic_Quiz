@@ -11,20 +11,20 @@
         android:id="@+id/idsecondArithmetic"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="224dp"
+        android:layout_marginTop="45dp"
         android:text="TextView"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.705"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="@+id/idAnswer" />
 
     <Button
         android:id="@+id/btnEqual"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="164dp"
+        android:layout_marginTop="85dp"
         android:text="=="
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/idfirstArihmetic"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent" />
@@ -33,9 +33,9 @@
         android:id="@+id/btnLess"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="164dp"
+        android:layout_marginTop="85dp"
         android:text="Less"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/idfirstArihmetic"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.882"
         app:layout_constraintStart_toStartOf="parent" />
@@ -44,9 +44,9 @@
         android:id="@+id/btnGreater"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="164dp"
+        android:layout_marginTop="85dp"
         android:text="Greater"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/idfirstArihmetic"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.051"
         app:layout_constraintStart_toStartOf="parent" />
@@ -55,21 +55,41 @@
         android:id="@+id/idfirstArihmetic"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="224dp"
+        android:layout_marginTop="45dp"
         android:text="TextView"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.291"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="@+id/idAnswer" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="45dp"
+        android:layout_height="28dp"
+        android:layout_marginStart="-18dp"
+        android:layout_marginTop="-5dp"
+        app:layout_constraintStart_toEndOf="@+id/idAnswer"
+        app:layout_constraintTop_toTopOf="@+id/idAnswer"
+        />
 
     <TextView
         android:id="@+id/idAnswer"
-        android:layout_width="149dp"
-        android:layout_height="83dp"
-        android:layout_marginTop="52dp"
-        android:text="TextView"
+        android:layout_width="139dp"
+        android:layout_height="37dp"
+        android:layout_marginTop="78dp"
+        android:backgroundTint="#7E7272"
+        android:textSize="40px"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/idTimer" />
+
+
+    <TextView
+        android:id="@+id/idTimer"
+        android:layout_width="139dp"
+        android:layout_height="37dp"
+        android:layout_marginTop="85dp"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
